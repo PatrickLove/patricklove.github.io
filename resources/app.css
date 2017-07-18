@@ -1,0 +1,41 @@
+
+
+
+
+
+.row {
+	display: flex;
+}
+
+.col {
+	padding: 0 0.5em;
+}
+
+.flex-center {
+	margin: auto;
+}
+
+.flex-fill {
+	flex: 1;
+}
+
+/*
+	Style for basic modal overlay
+*/
+
+.modal {
+	display: flex;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+.modal > .modal-content {
+	margin: auto;
+	border-radius: 1em;
+	padding: 2em;
+	background-color: #EEEEEE;
+}
