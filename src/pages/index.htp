@@ -1,0 +1,16 @@
+<file template="app_template.htt">
+
+<set stylesheet='index'>
+<set title="Coming Soon!">
+<block name="body">
+	<div class="modal">
+		<div class="modal-content">
+			<div class="row">
+				<img id="logo" src="$root/img/Personal Logo.svg"/>
+				<div class="col row flex-fill">
+					<h1 class="flex-center">Under Development - Check back soon!</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</block>

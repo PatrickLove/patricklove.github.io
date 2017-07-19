@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="$root/favicon.ico" type="image/x-icon"/>
+
+	<title><use title></title>
+
+	<if stylesheet>
+		<link rel="stylesheet" type="text/css" href="$root/stylesheets/${stylesheet}.css"/>
+	</if>
+	<if script>
+		<script src="$root/js/${script}.js"></script>
+	</if>
+
+</head>
+<body>
+	<use body>
+</body>
+</html>

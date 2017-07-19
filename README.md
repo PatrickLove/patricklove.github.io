@@ -1,2 +1,2 @@
 # patricklove.github.io
-This is the root of my personal website.  It is visible at http://patricklove.github.io and at http://homepages.rpi.edu/~lovep for as long as I am in school.  It is currenly built using vanilla HTML/CSS/JS, but I am considering adding bootstrap to help with styling.  I may also add a CSS preprocessor as the project gets bigger to better ensure a consistent site-wide theme.  For now, I am focused on creating the basic content and layout to get the site up and running.
+This is the root of my personal website.  It is visible at http://patricklove.github.io as well as http://homepages.rpi.edu/~lovep for as long as I am in school.  It is currently built using [htp]{http://htp.sourceforge.net/} and [SASS]{http://sass-lang.com/}.
