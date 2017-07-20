@@ -1,2 +1,2 @@
 # patricklove.github.io
-This is the root of my personal website.  It is visible at http://patricklove.github.io as well as http://homepages.rpi.edu/~lovep for as long as I am in school.  It is currently built using [htp]{http://htp.sourceforge.net/} and [SASS]{http://sass-lang.com/}.
+This is the root of my personal website.  It is visible at http://patricklove.github.io as well as http://homepages.rpi.edu/~lovep for as long as I am in school.  It is currently built using [htp](http://htp.sourceforge.net/) and [SASS](http://sass-lang.com/), and uses a sass flex grid from [here](http://hugeinc.github.io/flexboxgrid-sass/).

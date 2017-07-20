@@ -1,18 +1,6 @@
-.row {
-	display: flex;
-}
+@import 'flexbox';
 
-.col {
-	padding: 0 0.5em;
-}
-
-.flex-center {
-	margin: auto;
-}
-
-.flex-fill {
-	flex: 1;
-}
+$logo-red: #ed1b23;
 
 /*
 	Style for basic modal overlay

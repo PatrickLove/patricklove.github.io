@@ -7,8 +7,8 @@
 		<div class="modal-content">
 			<div class="row">
 				<img id="logo" src="$root/img/Personal Logo.svg"/>
-				<div class="col row flex-fill">
-					<h1 class="flex-center">Under Development - Check back soon!</h1>
+				<div class="row col center-xs middle-xs">
+					<h1 class="col-xs-12">Under Development - Check back soon!</h1>
 				</div>
 			</div>
 		</div>
