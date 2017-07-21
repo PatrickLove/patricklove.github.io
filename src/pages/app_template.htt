@@ -5,15 +5,24 @@
 
 	<title><use title></title>
 
-	<if stylesheet>
-		<link rel="stylesheet" type="text/css" href="$root/stylesheets/${stylesheet}.css"/>
-	</if>
-	<if script>
-		<script src="$root/js/${script}.js"></script>
-	</if>
+	<set i=1>
+	<while stylesheet-$i>
+		<link rel="stylesheet" type="text/css" href="$root/stylesheets/${stylesheet-$i}.css"/>
+		<inc i>
+	</while>
+	<set i=1>
+	<while script-$i>
+		<script src="$root/js/${script-$i}.js"></script>
+		<inc i>
+	</while>
+	<unset i>
 
+	<if head>
+		<use head>
+	</if>
 </head>
 <body>
+
 	<use body>
 </body>
 </html>

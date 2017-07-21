@@ -1,6 +1,6 @@
 <file template="app_template.htt">
 
-<set stylesheet='index'>
+<set stylesheet-1='index'>
 <set title="Coming Soon!">
 <block name="body">
 	<div class="modal">
