@@ -1,20 +1,30 @@
-<div class="header-bar row center-xs">
-	<div class="nav row bottom-xs col-xs-12 col-lg-8">
+<div class="header-bar row-no-margin center-xs">
+	<div class="nav row col-xs-12 col-lg-8">
 		<img class="nav-logo" src="$root/img/logo.svg">
-		<ul class="nav-list">
-			<set navcount=1>
-			<while nav-link-$navcount>
-				<if nav-active-$navcount>
-					<li class="nav-active-link">
-				<else>
-					<li>
-				</if>
-					<a href="$root/${nav-link-$navcount}" class="block-link">
-						<span><use nav-item-$navcount></span>
-					</a>
-				</li>
-				<inc navcount>
-			</while>
-		</ul>
+		<div class="nav-controls col-xs row-vert between-xs">
+			<div class="nav-heading row">
+				<h1 class="col-xs">Patrick Love - Computer Engineer</h1>
+				<div class="svg">
+					<a href="https://www.facebook.com/DrPLove" class="webicon facebook"></a>
+					<a href="https://twitter.com/DrPLove_phD" class="webicon twitter"></a>
+					<a href="https://www.linkedin.com/in/patrick-love/" class="webicon linkedin"></a>
+				</div>
+			</div>
+			<ul class="nav-list">
+				<set navcount=1>
+				<while nav-link-$navcount>
+					<if nav-active-$navcount>
+						<li class="nav-active-link">
+					<else>
+						<li>
+					</if>
+						<a href="$root/${nav-link-$navcount}" class="block-link">
+							<span><use nav-item-$navcount></span>
+						</a>
+					</li>
+					<inc navcount>
+				</while>
+			</ul>
+		</div>
 	</div>
 </div>

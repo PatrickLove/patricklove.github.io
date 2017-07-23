@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="$root/favicon.ico" type="image/x-icon"/>
 
 	<title><use title></title>
 
+	<link rel="stylesheet" type="text/css" href="$root/stylesheets/common.css"/>
+	
 	<set i=1>
 	<while stylesheet-$i>
-		<link rel="stylesheet" type="text/css" href="$root/stylesheets/${stylesheet-$i}.css"/>
+		<link rel="stylesheet" type="text/css" href="$root/stylesheets/${dirpath}${stylesheet-$i}.css"/>
 		<inc i>
 	</while>
 	<set i=1>
@@ -24,8 +28,9 @@
 <body>
 	<file include="app_nav.hti"
 		nav-link-1="" nav-item-1="About"
-		nav-link-2="interest" nav-item-2="TEST">
-	<div class="content-wrapper row center-xs">
+		nav-link-2="interests" nav-item-2="Interests"
+		nav-link-3="projects" nav-item-3="Projects">
+	<div class="content-wrapper row-no-margin center-xs">
 		<div class="content col-xs-12 col-lg-8">
 			<use body>
 		</div>

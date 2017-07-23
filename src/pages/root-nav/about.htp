@@ -1,7 +1,6 @@
-<file template="app_template.htt">
+<file template="../app_template.htt">
 
-<set stylesheet-1='index'>
-<set title="Coming Soon!">
+<set title="About Me">
 <set nav-active-1>
 <block name="body">
 	<h1>

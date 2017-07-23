@@ -1,0 +1,7 @@
+<file template="../app_template.htt">
+
+<set title="Intrests">
+<set nav-active-2>
+<block name="body">
+	<h1></h1>
+</block>

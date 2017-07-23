@@ -18,6 +18,15 @@
 			margin: auto 0;
 		}
 
+		.nav-heading {
+			h1 {
+				text-align: left;
+			}
+			.svg {
+				padding: 1rem;
+			}
+		}
+
 		.nav-list {
 			list-style-type: none;
 			margin: 0;

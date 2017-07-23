@@ -1,7 +1,8 @@
 <opt NOIMGXY>
 
-<set debug>
+<!-- <set debug> -->
 <set root="">
+<set dirpath="">
 <file search="../components/">
 
 <if debug>

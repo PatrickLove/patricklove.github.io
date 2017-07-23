@@ -1,7 +1,7 @@
-@import 'flexbox';
-@import 'webicons';
-@import 'theme';
-@import 'nav';
+@import '../scss/flexbox';
+@import '../scss/webicons';
+@import '../scss/theme';
+@import '../scss/nav';
 
 * {
 	color: $soft-black;

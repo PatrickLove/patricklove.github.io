@@ -1,0 +1,3 @@
+about.htp ../../../dist/index.html
+interests.htp ../../../dist/interests/index.html
+projects.htp ../../../dist/projects/index.html
