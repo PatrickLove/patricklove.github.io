@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Source+Sans+Pro');
+
+$font-heading: 'Exo 2', sans-serif;
+$font-body: 'Source Sans Pro', sans-serif;
+
+$header-height: 7rem;
+
+$secondary: #ed1b23;
+$soft-black: #1b1b1b;
+
+$primary-light-2: #fffcf8;
+$primary-light-1: #fff4e6;
+$primary: #fff0dd;
+$primary-dark-1: #ffedd5;
+$primary-dark-2: #ffe9cd;
+
+$gray: #aaaaaa;
+
+
+@mixin basic-box-shadow($size) {
+	box-shadow: 0 0 $size $gray;
+}
+
+@mixin strip-decoration {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}

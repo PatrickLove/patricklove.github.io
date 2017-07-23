@@ -22,7 +22,13 @@
 	</if>
 </head>
 <body>
-
-	<use body>
+	<file include="app_nav.hti"
+		nav-link-1="" nav-item-1="About"
+		nav-link-2="interest" nav-item-2="TEST">
+	<div class="content-wrapper row center-xs">
+		<div class="content col-xs-12 col-lg-8">
+			<use body>
+		</div>
+	</div>
 </body>
 </html>

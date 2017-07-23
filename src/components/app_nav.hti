@@ -1,0 +1,20 @@
+<div class="header-bar row center-xs">
+	<div class="nav row bottom-xs col-xs-12 col-lg-8">
+		<img class="nav-logo" src="$root/img/logo.svg">
+		<ul class="nav-list">
+			<set navcount=1>
+			<while nav-link-$navcount>
+				<if nav-active-$navcount>
+					<li class="nav-active-link">
+				<else>
+					<li>
+				</if>
+					<a href="$root/${nav-link-$navcount}" class="block-link">
+						<span><use nav-item-$navcount></span>
+					</a>
+				</li>
+				<inc navcount>
+			</while>
+		</ul>
+	</div>
+</div>

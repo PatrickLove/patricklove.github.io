@@ -2,6 +2,7 @@
 
 <set debug>
 <set root="">
+<file search="../components/">
 
 <if debug>
 	<opt SEMICONDENSE>

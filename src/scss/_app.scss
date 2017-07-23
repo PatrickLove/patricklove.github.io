@@ -1,6 +1,45 @@
 @import 'flexbox';
+@import 'theme';
+@import 'nav';
 
-$logo-red: #ed1b23;
+* {
+	color: $soft-black;
+	font-family: $font-body;
+}
+
+p {
+	text-align: left;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: $font-heading;
+	color: $secondary;
+
+}
+
+body {
+	margin: 0;
+}
+
+.content-wrapper {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: $gray;
+	.content {
+		padding: 0 3rem 2rem;
+		margin-top: $header-height;
+		background-color: $primary-light-2;
+	}
+}
+
+a.block-link {
+	@include strip-decoration;
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
 
 /*
 	Style for basic modal overlay

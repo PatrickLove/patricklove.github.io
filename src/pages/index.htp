@@ -2,15 +2,30 @@
 
 <set stylesheet-1='index'>
 <set title="Coming Soon!">
+<set nav-active-1>
 <block name="body">
-	<div class="modal">
-		<div class="modal-content">
-			<div class="row">
-				<img id="logo" src="$root/img/Personal Logo.svg"/>
-				<div class="row col center-xs middle-xs">
-					<h1 class="col-xs-12">Under Development - Check back soon!</h1>
-				</div>
-			</div>
-		</div>
-	</div>
+	<h1>
+		This... is... PATRICK!!!
+	</h1>
+	<p>
+		Snackwave chia tilde hammock, occupy offal readymade microdosing activated charcoal fanny pack. VHS vape YOLO, williamsburg chartreuse single-origin coffee tofu distillery prism microdosing schlitz. Readymade cold-pressed intelligentsia locavore hexagon cred health goth fam woke PBR&amp;B forage fixie portland semiotics listicle. Cardigan master cleanse cray man braid pour-over authentic pop-up. Chambray portland hella, chia flannel yr kinfolk cold-pressed pop-up. Pork belly synth affogato, freegan small batch normcore pok pok poutine cray tbh tacos single-origin coffee. Typewriter slow-carb trust fund pok pok tilde activated charcoal. Tofu neutra stumptown ethical sartorial viral listicle sustainable try-hard fanny pack +1 blue bottle. Stumptown shaman keffiyeh pitchfork edison bulb wayfarers salvia YOLO vexillologist. Meditation gluten-free four dollar toast beard neutra. Lumbersexual plaid authentic letterpress shoreditch.
+	</p>
+	<p>
+		Locavore food truck mlkshk etsy, disrupt offal portland dreamcatcher organic green juice. Selvage mlkshk tacos gluten-free, banh mi church-key post-ironic vegan YOLO vaporware vexillologist tofu austin viral cornhole. Distillery swag actually bushwick adaptogen typewriter. Swag VHS wolf lo-fi readymade. Actually farm-to-table chillwave tilde. Pitchfork master cleanse raw denim poke. La croix blog XOXO, deep v gluten-free poke you probably haven't heard of them keytar hashtag craft beer keffiyeh sartorial 3 wolf moon vexillologist intelligentsia. Hella mlkshk you probably haven't heard of them salvia small batch flannel cold-pressed, listicle fixie PBR&amp;B coloring book DIY gluten-free skateboard. Poutine af meggings, raw denim meditation poke humblebrag man bun trust fund snackwave biodiesel enamel pin direct trade shabby chic. Brooklyn kale chips poke hammock meditation.
+	</p>
+	<p>
+		Fam swag squid keytar kickstarter, narwhal vape fixie kogi activated charcoal actually quinoa. Meggings cray aesthetic single-origin coffee biodiesel. Mixtape YOLO letterpress butcher bushwick blog pickled meh pabst tumblr gochujang biodiesel lomo dreamcatcher. Raclette chambray taxidermy fingerstache, DIY whatever green juice unicorn glossier synth pabst 3 wolf moon kombucha tbh. Flannel wayfarers jianbing crucifix church-key portland echo park austin pabst vice offal fixie mlkshk. Mustache artisan keytar messenger bag lomo. Chillwave humblebrag pitchfork readymade knausgaard, tattooed palo santo air plant hella banjo. Narwhal lo-fi tousled irony. Yuccie blue bottle DIY fam sriracha locavore actually tilde lomo try-hard. Shabby chic tumblr heirloom pop-up hexagon four dollar toast, meditation four loko dreamcatcher cold-pressed 3 wolf moon. Organic normcore cliche vegan. Cornhole whatever artisan wolf church-key, coloring book pitchfork fashion axe chartreuse before they sold out meditation food truck etsy. Vinyl gluten-free pour-over deep v chia cliche venmo distillery church-key iPhone slow-carb gastropub yuccie post-ironic drinking vinegar. Authentic fashion axe cardigan organic photo booth.
+	</p>
+	<p>
+		Jean shorts taiyaki twee woke. Pabst normcore hot chicken kale chips farm-to-table taxidermy dreamcatcher swag paleo la croix ennui master cleanse. Meditation poke sustainable activated charcoal, humblebrag synth bicycle rights irony skateboard. Offal cold-pressed knausgaard, +1 fanny pack lomo typewriter taiyaki squid butcher mlkshk raw denim chillwave hexagon. Umami beard iceland retro semiotics, readymade pork belly 8-bit meggings chillwave cold-pressed before they sold out church-key. Cred humblebrag hot chicken stumptown. Helvetica pour-over DIY la croix, narwhal chambray 3 wolf moon forage lo-fi chillwave blog selfies cronut vinyl. Knausgaard lo-fi ramps fingerstache 90's, drinking vinegar iPhone. Vinyl bitters banh mi, fingerstache fam chia banjo iPhone post-ironic chillwave mixtape pork belly. Wolf fixie jean shorts chillwave enamel pin pok pok poutine bespoke humblebrag VHS artisan biodiesel twee. Pug shaman yuccie typewriter, godard cloud bread stumptown four dollar toast aesthetic tbh. Artisan photo booth copper mug truffaut. Fixie green juice lo-fi XOXO messenger bag.
+	</p>
+	<p>
+		Distillery ethical street art truffaut hoodie succulents adaptogen. Artisan intelligentsia glossier shoreditch 90's bicycle rights. Banjo dreamcatcher cliche bitters literally thundercats master cleanse roof party vape mixtape 90's. Forage affogato ugh cred irony hot chicken distillery. Post-ironic poutine fashion axe intelligentsia tilde hot chicken 90's church-key pickled pop-up literally coloring book. Typewriter gentrify hot chicken la croix affogato gochujang knausgaard readymade artisan intelligentsia raclette iPhone PBR&amp;B. Typewriter kogi four loko twee pork belly williamsburg pabst kinfolk stumptown shabby chic yuccie. Neutra vexillologist VHS health goth pork belly vegan hell of brooklyn occupy lumbersexual microdosing artisan shaman selfies. Migas echo park fashion axe, cray brooklyn kale chips chambray cloud bread mixtape jean shorts kickstarter blue bottle hella gochujang. Pok pok twee chia fanny pack fingerstache banjo hella 90's venmo retro viral narwhal mlkshk listicle. XOXO vinyl typewriter cred tote bag. Air plant godard kitsch mixtape. Kinfolk lo-fi raw denim art party lyft chillwave green juice ethical wayfarers. Meditation polaroid irony cornhole twee poutine williamsburg kitsch raw denim listicle asymmetrical godard gentrify chillwave.
+	</p>
+	<p>
+		Oh. You need a little dummy text for your mockup? How quaint.
+	</p>
+	<p>
+		I bet you're still using Bootstrap too...
+	</p>
 </block>

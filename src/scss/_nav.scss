@@ -1,0 +1,51 @@
+.header-bar {
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: $primary-light-1;
+	margin: 0;
+	overflow: hidden;
+	height: $header-height;
+
+	@include basic-box-shadow(0.5rem);
+
+	.nav {
+		.nav-logo {
+			height: 75%;
+			padding: 0 2rem 0 1rem; 
+			margin: auto 0;
+		}
+
+		.nav-list {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			width: 30%;
+			> li {
+				
+				display: block;
+				flex: 1;
+
+				a {
+					display: flex;
+					> span {
+						margin-top: auto;
+						font-size: 24px;
+						font-family: $font-heading;
+						padding: 1rem;
+						width: 100%;
+						text-align: center;	
+					}
+				}
+			}
+			> .nav-active-link {
+				border-radius: 0.75rem 0.75rem 0 0;
+				background-color: $primary-light-2;
+				@include basic-box-shadow(0.5rem);
+			}
+		}
+	}
+}
